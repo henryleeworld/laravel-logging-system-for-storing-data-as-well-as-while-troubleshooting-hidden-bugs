@@ -1,4 +1,4 @@
-# Laravel 10 記錄系統日誌資訊以進行潛在錯誤疑難排解
+# Laravel 11 記錄系統日誌資訊以進行潛在錯誤疑難排解
 
 引入 freshbitsweb 的 laravel-log-enhancer 套件來記錄系統日誌資訊以進行潛在錯誤疑難排解，遇到系統問題時，第一時間都會想到查詢系統上的日誌來釐清問題。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Bmp95xN.png)
+![](https://i.imgur.com/paP8j5U.png)
 > 完整的日誌記錄是系統營運、優化以及問題處理的基礎

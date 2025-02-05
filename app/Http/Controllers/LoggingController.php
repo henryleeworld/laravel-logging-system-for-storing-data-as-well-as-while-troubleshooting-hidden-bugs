@@ -8,7 +8,7 @@ class LoggingController extends Controller
 {
     public function log() 
     {
-        Log::channel('enhance_stack')->debug('資訊性訊息');
-        Log::channel('enhance_stack')->emergency('系統已關閉！');
+        Log::channel('enhance_stack')->debug(__('Informational message'));
+        Log::channel('enhance_stack')->emergency(__('The system is shut down!'));
     }
 }
